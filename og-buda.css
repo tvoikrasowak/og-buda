@@ -1,0 +1,122 @@
+
+/* General body and html styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Top image styling */
+.top-image {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Container for top image with relative positioning */
+.top-image-container {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+/* Small image styling */
+.small-image {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    width: 200px;
+    height: auto;
+    transform: translateY(-30%);
+    border-radius: 20px;
+}
+
+/* Medium image styling */
+.medium-image {
+    position: absolute;
+    top: 150px;
+    left: 56px;
+    width: 210px;
+    height: auto;
+    transform: translateY(-30%);
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgb(96, 96, 98);
+}
+
+/* Content section styling */
+.content {
+    color: rgb(0, 0, 0); /* dark text color */
+    text-align: center;
+    padding: 90px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* About section styling */
+.about {
+    width: 50%;
+    float: right;
+    letter-spacing: 4px;
+}
+
+/* Table styling */
+table {
+    width: 50%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header and data cell styling */
+th, td {
+    border: 1px solid #ddd;
+    padding: 7px;
+    text-align: left;
+}
+
+/* Table header specific styles */
+th {
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Alternate row colors and hover effect */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Specific row colors for special rows, e.g., for important rows or headers */
+tr.special-row {
+    background-color: #ffe6e6; /* Light red for important rows */
+}
+
+/* Add hover effect for rows */
+tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}
+
